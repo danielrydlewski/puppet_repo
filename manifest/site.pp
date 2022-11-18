@@ -4,7 +4,4 @@ node default {
     content => "Welcome to ${fqdn}\n",
     owner   => 'root',
   }
-  file {'/root/README':
-    owner => 'root',
-  }
 }
