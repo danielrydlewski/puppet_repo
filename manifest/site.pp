@@ -1,7 +1,7 @@
 node puppetclient2 {
   file { '/root/README':
     ensure => file,
-    content => "Welcome to ${fqdn}\n",
+    content => "Welcome",
     owner   => 'root',
   }
 }
