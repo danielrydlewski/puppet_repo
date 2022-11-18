@@ -1,4 +1,4 @@
-node 'puppetclient2' {
+node default {
   file{'/tmp/README':
     ensure  => file,
     content => "Welcome",
