@@ -1,6 +1,6 @@
 node 'puppetclient2' {
   file{'/root/README':
-    ensure => file,
+    ensure  => file,
     content => "Welcome",
     owner   => 'root',
   }
